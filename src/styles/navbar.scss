@@ -1,0 +1,34 @@
+.nav {
+  display: flex;
+  background-color: #facc15;
+  justify-content: end;
+  padding-right: 2rem;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #facc15;
+    li {
+      float: left;
+      a {
+        display: block;
+        color: #000000;
+        text-align: center;
+        font-size: 1.1rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 14px 16px;
+        text-decoration: none;
+        &:hover {
+          background-color: #fadc15;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+.cart {
+  height: 2rem;
+  padding-top: 0.5rem;
+}
